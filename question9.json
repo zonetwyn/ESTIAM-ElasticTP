@@ -14,13 +14,13 @@
                     "terms": { 
                         "field": "name.keyword",
                         "order": {
-                            "max_score": "desc"
+                            "avg_score": "desc"
                         },
                         "size": 1
                     },
                     "aggs": {
-                        "max_score": {
-                            "max": {
+                        "avg_score": {
+                            "avg": {
                                 "field": "grades.score"
                             }
                         }

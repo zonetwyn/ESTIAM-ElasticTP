@@ -1,0 +1,15 @@
+{
+    "mappings": {
+        "_doc" : {
+            "properties" : {
+                "address.coord": {
+                    "type": "geo_point"
+                },
+                "cuisine": {
+                    "type": "text",
+                    "fielddata": true
+                }
+            }
+        }
+    }
+}

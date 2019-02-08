@@ -1,0 +1,8 @@
+{
+    "query": {
+        "term": {
+            "cuisine.keyword": "Japanese"
+        }
+    },
+    "size": 0
+}

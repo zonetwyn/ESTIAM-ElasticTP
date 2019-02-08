@@ -1,0 +1,13 @@
+{
+    "query": {
+        "match": {
+            "borough": "Brooklyn"
+        }
+    },
+    "aggs": {
+        "cuisines": {
+            "terms": { "field": "cuisine" }
+        }
+    },
+    "size": 0
+}

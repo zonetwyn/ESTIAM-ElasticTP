@@ -1,0 +1,8 @@
+{
+    "aggs": {
+        "boroughs": {
+            "terms": { "field": "borough.keyword" }
+        }
+    },
+    "size": 0
+}
